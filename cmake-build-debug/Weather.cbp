@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Weather"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\Boost-1.79.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_headers-1.79.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_system-1.79.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_thread-1.79.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_json-1.79.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_container-1.79.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_program_options-1.79.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Weather">
+				<Option output="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Weather" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
+					<Add option="-DBOOST_JSON_NO_LIB"/>
+					<Add option="-DBOOST_CONTAINER_NO_LIB"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_NO_LIB"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 Weather"/>
+					<CompileFile command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Weather/fast">
+				<Option output="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Weather" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
+					<Add option="-DBOOST_JSON_NO_LIB"/>
+					<Add option="-DBOOST_CONTAINER_NO_LIB"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_NO_LIB"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 Weather/fast"/>
+					<CompileFile command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j8 -f &quot;/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/src/headers/application.hpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/src/headers/client.hpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/src/headers/network.hpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/src/sources/application.cpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/src/sources/client.cpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/src/sources/main.cpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/src/sources/network.cpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/BoostDetectToolset-1.79.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/Boost-1.79.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\Boost-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/Boost-1.79.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\Boost-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_headers-1.79.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_headers-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_headers-1.79.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_headers-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_system-1.79.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_system-1.79.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_system-1.79.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_system-1.79.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_thread-1.79.0/boost_thread-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_thread-1.79.0/boost_thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_thread-1.79.0/libboost_thread-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_thread-1.79.0/libboost_thread-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_json-1.79.0/boost_json-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_json-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_json-1.79.0/boost_json-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_json-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_json-1.79.0/libboost_json-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_json-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_json-1.79.0/libboost_json-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_json-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_container-1.79.0/boost_container-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_container-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_container-1.79.0/boost_container-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_container-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_container-1.79.0/libboost_container-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_container-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_container-1.79.0/libboost_container-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_container-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_program_options-1.79.0/boost_program_options-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_program_options-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_program_options-1.79.0/boost_program_options-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_program_options-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_program_options-1.79.0/libboost_program_options-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_program_options-1.79.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/../../../../../../../usr/lib/cmake/boost_program_options-1.79.0/libboost_program_options-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\boost_program_options-1.79.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

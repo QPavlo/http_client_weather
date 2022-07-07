@@ -1,0 +1,3 @@
+/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pavlo/workDirectory/basecamp/personal_tasks/task_2/Weather/cmake-build-debug/CMakeFiles/Weather.dir
